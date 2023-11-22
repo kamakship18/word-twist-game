@@ -1,0 +1,105 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/ad/1b/fa/ad1bfafa5eb4c4135d4304b8046f2af9.gif');
+    /* background-size: 1vw,1vw; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+  }
+.heading {
+    text-align: center;
+    position: relative;
+    top: 20vh; 
+}
+  .heading h1 {
+    font-size: 80px;
+ font-weight: bold;
+ color: rgb(24, 17, 17);
+ font-family: 'Unicorn Regular';
+ text-shadow: 2px 2px rgb(19, 16, 16);
+ background: -webkit-linear-gradient(red, blue);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  }
+
+.instructions {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: 25vh;
+}
+#instructionsButton{
+    background-color: rgb(46, 36, 37);
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    transition: transform 0.1s;
+}
+#instructionsText {
+    margin: auto;
+    margin-top: 10px;
+    display: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    position: relative;
+}
+
+.play-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+button {
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+   
+   button:hover {
+    transform: scale(1.1);
+   }
+.level-1 {
+    background-color: rgb(162, 208, 235);
+    color: rgb(7, 6, 6);
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    transition: transform 0.1s;
+}
+
+.level-2 {
+    background-color: #6ceee3;
+    color: rgb(10, 14, 13); 
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    transition: transform 0.1s;
+}
+
+.level-3 {
+    background-color: rgb(10, 151, 156);
+    color: rgb(7, 6, 6);
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    transition: transform 0.1s;
+}
+.play-buttons {
+ position: relative;
+ top: 35vh;
+}
+
+

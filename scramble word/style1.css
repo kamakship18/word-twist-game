@@ -1,8 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -12,19 +8,23 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: red;
+  background-image: url('https://media.tenor.com/Zqt2UdIwooAAAAAC/rainbow-flash.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.container{
-  width: 440px;
-  border-radius: 7px;
-  background: #fff;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
-}
+.container { 
+  width: 500px;
+  border-radius: 7px; 
+  box-shadow: 0 30px 30px rgba(0,0,0,0.08),
+                  0 0 50px rgba(255,102,255,0.2),
+                  0 0 100px rgba(255,255,102,0.2),
+                  0 0 150px rgba(102,255,255,0.2); } 
 .container h2{
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 35px; 
+  font-weight: bold;
   padding: 16px 25px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; 
+  text-align: center;
 }
 .container .content{
   margin: 25px 20px 35px;
@@ -62,7 +62,7 @@ body{
   box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
 }
 .content input::placeholder{
-  color: #aaa;
+  color: #683838; 
 }
 .content input:focus::placeholder{
   color: #bfbfbf;
@@ -86,28 +86,19 @@ body{
 .buttons button:active{
   transform: scale(0.97);
 }
-.buttons .refresh-word{
-  background: #6C757D;
+.buttons .new-word{
+  background: #e27dbb;
 }
-.buttons .refresh-word:hover{
-  background: #5f666d;
+.buttons .new-word:hover{
+  background: #aa4fa4;
 }
 .buttons .check-word{
-  background: #5372F0;
+  background: #36c2bb;
 }
 .buttons .check-word:hover{
   background: #2c52ed;
 }
 
-.buttons .level-1{
-  background: pink;
-} 
-.buttons .level-2{
-  background: peachpuff;
-}
-.buttons .level-3{
-  background: lightpink;
-}
 @media screen and (max-width: 470px) {
   .container h2{
     font-size: 22px;

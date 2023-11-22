@@ -2,7 +2,7 @@ const wordText = document.querySelector(".word"),
 hintText = document.querySelector(".hint span"),
 timeText = document.querySelector(".time b"),
 inputField = document.querySelector("input"),
-refreshBtn = document.querySelector(".refresh-word"),
+refreshBtn = document.querySelector(".new-word"),
 checkBtn = document.querySelector(".check-word");
 
 let correctWord, timer;

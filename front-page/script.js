@@ -6,5 +6,3 @@ document.getElementById('instructionsButton').addEventListener('click', function
         instructionsText.style.display = 'none';
     }
 });
-
-// include the code for playing the game at different levels
