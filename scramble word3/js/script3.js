@@ -1,4 +1,3 @@
-console.log('hi')
 const wordText = document.querySelector(".word"),
 hintText = document.querySelector(".hint span"),
 timeText = document.querySelector(".time b"),
