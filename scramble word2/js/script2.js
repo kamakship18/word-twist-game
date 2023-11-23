@@ -49,6 +49,7 @@ const incrementScore = increment => {
     console.log(increment)
     score += increment;
     document.getElementById('score').innerHTML = score[26]+score[27];
+    localStorage.setItem("score",score[26]+score[27]);
 }
 
 refreshBtn.addEventListener("click", initGame);

@@ -25,18 +25,17 @@
         <a href="instruction.html" style="display: none;" id="start-game-link"></a>
     </div>
 
-    <script>
+<script>
         const playerInfoForm = document.querySelector('#player-info-form');
     const startGameLink = document.querySelector('#start-game-link');
 
 playerInfoForm.addEventListener('submit', (event) => {
     event.preventDefault();
-
     const playerName = document.getElementById('player-name').value;
     const playerNickname = document.getElementById('player-nickname').value;
 
-    sessionStorage.setItem('playerName', playerName);
-    sessionStorage.setItem('playerNickname', playerNickname);
+    localStorage.setItem('playerName', playerName);
+    localStorage.setItem('playerNickname', playerNickname);
 
     startGameLink.style.display = 'block';
     startGameLink.click();
@@ -116,8 +115,6 @@ background: -webkit-linear-gradient(red, blue);
             background-color: #82e287;
         }
     </style>
-
-
 
    </body>
    </html>

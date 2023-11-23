@@ -11,7 +11,7 @@
         <h1>GAME END </h1>
 </div>
 
-<pre> YOUR SCORE IS </pre> 
+<p id="final"> YOUR SCORE IS </p> 
 <a href="./front-page/index.html"><button class="level-1">RESTART GAME</button></a>
 
 
@@ -46,4 +46,12 @@
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 
-    </style>
+    </style> 
+<script>
+    var name = localStorage.getItem('playerName');
+    var score = localStorage.getItem('score');
+    document.getElementById("final").innerText= "Thank you " + name + ", your score is " + score;
+
+</script>
+</body>
+</html>
