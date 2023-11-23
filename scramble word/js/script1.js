@@ -5,7 +5,7 @@ inputField = document.querySelector("input"),
 refreshBtn = document.querySelector(".new-word"),
 checkBtn = document.querySelector(".check-word");
 
-let correctWord, timer;
+let correctWord, timer, score = 0;
 
 const initTimer = maxTime => {
     clearInterval(timer);
@@ -40,8 +40,15 @@ const checkWord = () => {
     if(!userWord) return alert("Please enter the word to check!");
     if(userWord !== correctWord) return alert(`Oops! ${userWord} you got it wrong!`);
     alert(`Congrats! ${correctWord.toUpperCase()} is the right word`);
+    incrementScore(10); // Increment the score by 10 points
     initGame();
+}
+
+const incrementScore = increment => {
+    score += increment;
+    document.getElementById('score').innerHTML = score;
 }
 
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
+
