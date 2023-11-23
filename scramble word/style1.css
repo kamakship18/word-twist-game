@@ -124,5 +124,33 @@ body{
     padding: 14px 0;
     font-size: 16px;
     width: calc(100% / 2 - 7px);
-  }
+  } 
+} 
+.score-container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: transparent;
+}
+#score {
+  width: 50%;
+  height: 50%;
+  background-color: transparent; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  border: none;
+  border-radius: 0.5cm;
+}
+
+@media screen and (max-width: 470px) {
+ .score-container {
+   width: 70px;
+   height: 70px;
+ }
+ #score {
+   font-size: 14px;
+ }
 }

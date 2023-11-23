@@ -1,35 +1,19 @@
 let words = [
     {
-        word: "addition",
-        hint: "The process of adding numbers"
+        word: "react",
+        hint: "JavaScript framework"
     },
     {
-        word: "meeting",
-        hint: "Event in which people come together"
+        word: "angular",
+        hint: "JavaScript Framework"
     },
     {
-        word: "number",
-        hint: "Math symbol used for counting"
+        word: "javascript",
+        hint: "Scripting Language"
     },
     {
-        word: "exchange",
-        hint: "The act of trading"
+        word: "bootstrap",
+        hint: "Styling Library"
     },
     
-    {
-        word: "tongue",
-        hint: "The muscular organ of mouth"
-    },
-    {
-        word: "expansion",
-        hint: "The process of increase or grow"
-    },
-    {
-        word: "second",
-        hint: "One-sixtieth of a minute"
-    },
-    {
-        word: "library",
-        hint: "Place containing collection of books"
-    },
 ]
