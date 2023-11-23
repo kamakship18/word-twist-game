@@ -46,7 +46,9 @@ const checkWord = () => {
 
 const incrementScore = increment => {
     score += increment;
+    console.log(score)
     document.getElementById('score').innerHTML = score;
+    console.log(score)
 }
 
 refreshBtn.addEventListener("click", initGame);
