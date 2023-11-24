@@ -33,7 +33,7 @@ const initGame = () => {
     correctWord = randomObj.word.toLowerCase();;
     inputField.value = "";
     inputField.setAttribute("maxlength", correctWord.length);
-}
+}   
 initGame();
 
 const checkWord = () => {
@@ -44,12 +44,16 @@ const checkWord = () => {
     incrementScore(10); 
     initGame();
 }
+let score2=0
 
 const incrementScore = increment => {
     console.log(increment)
+    score2+=increment
     score += increment;
-    document.getElementById('score').innerHTML = score[26]+score[27];
-    localStorage.setItem("score",score[26]+score[27]);
+    console.log(score2)
+    // document.getElementById('score').innerHTML = score[26]+score[27];
+    document.getElementById('score').innerHTML = score2
+    localStorage.setItem("score",score2);
 }
 
 refreshBtn.addEventListener("click", initGame);

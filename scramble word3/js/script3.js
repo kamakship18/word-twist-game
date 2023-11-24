@@ -43,12 +43,15 @@ const checkWord = () => {
     incrementScore(10); 
     initGame();
 }
+let score3=0
 
 const incrementScore = increment => {
     console.log(increment)
+    score3+=increment
     score += increment;
-    document.getElementById('score').innerHTML = score[26]+score[27];
- localStorage.setItem("score",score[26]+score[27]);
+    // document.getElementById('score').innerHTML = score[26]+score[27];
+    document.getElementById('score').innerHTML = score3
+ localStorage.setItem("score",score3);
 }
 
 refreshBtn.addEventListener("click", initGame);
