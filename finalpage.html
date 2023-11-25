@@ -75,9 +75,16 @@
     window.onload=()=>{
         var name = localStorage.getItem('playerName');
     var score = localStorage.getItem('score');
-    document.getElementById("final").innerHTML= `Thankyou ${name}, your score is ${score}`;
+    document.getElementById("final").innerHTML= ` ${name}, your score is ${score}, ${statements[Math.floor(Math.random()*5)]}`;
     }
 
+statements=[
+ "glad you tried",
+ "check out other levels",
+ "keep going",
+ "keep up with the words",
+ "done with this level? check out the other ones",
+] 
 </script>
 </body>
 </html>
