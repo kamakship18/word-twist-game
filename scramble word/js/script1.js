@@ -5,7 +5,7 @@ inputField = document.querySelector("input"),
 refreshBtn = document.querySelector(".new-word"),
 checkBtn = document.querySelector(".check-word"); 
 
-
+//whole-page timer
 function startTimer(duration, display) {
     
     var timer = duration, minutes, seconds;
