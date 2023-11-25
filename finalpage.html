@@ -12,7 +12,9 @@
 </div>
 
 <p id="final"> YOUR SCORE IS </p> 
-<a href="./front-page/index.html"><button class="level-1">RESTART GAME</button></a>
+ <a href="./front-page/index.html"> 
+    <button class="restart-game">RESTART GAME</button>
+ </a> 
 
 
 <style> 
@@ -22,6 +24,8 @@
     background-image: url('https://images.squarespace-cdn.com/content/v1/5d122e0d694a030001ef945a/2c436b73-d614-4506-bb8f-463f0b80b00e/possible+memoir+1.gif');
     background-size: cover;
     z-index: -2;
+    width: 100vw;
+    height: 100vh;
 }
 
 .heading h1 { 
@@ -36,21 +40,43 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 } 
-.level-1 {
+.restart-game {  
     background-color: rgb(235, 162, 213);
     color: rgb(7, 6, 6);
     padding: 20px;
+    margin-left: 35%;
     font-size: 24px;
     border: none;
     cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    text-decoration: none;
+    width: 30vw;
 }
+
+#final{
+    text-align: center; 
+    top: 10vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(24, 17, 17);
+    font-family: 'Unicorn Regular';
+    text-shadow: 2px 2px rgb(19, 16, 16);
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
     </style> 
 <script>
-    var name = localStorage.getItem('playerName');
+    window.onload=()=>{
+        var name = localStorage.getItem('playerName');
     var score = localStorage.getItem('score');
-    document.getElementById("final").innerText= "Thank you " + name + ", your score is " + score;
+    document.getElementById("final").innerHTML= `Thankyou ${name}, your score is ${score}`;
+    }
 
 </script>
 </body>

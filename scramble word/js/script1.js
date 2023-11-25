@@ -3,7 +3,32 @@ hintText = document.querySelector(".hint span"),
 timeText = document.querySelector(".time b"),
 inputField = document.querySelector("input"),
 refreshBtn = document.querySelector(".new-word"),
-checkBtn = document.querySelector(".check-word");
+checkBtn = document.querySelector(".check-word"); 
+
+
+function startTimer(duration, display) {
+    
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer <= 0) {
+            location.href='../finalpage.html'
+        }
+    }, 1000);
+}
+
+window.onload = function () {
+    var duration = 1 * 60, // time in seconds
+        display = document.querySelector('#time');
+    startTimer(duration, display);
+};
 
 let correctWord, timer, score = 0;
 
