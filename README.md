@@ -20,7 +20,8 @@ No installation is required! Simply open the provided name.html file in a web br
 3. Type your guess in the provided text box and click "check word"
 4. If your guess is correct, the scrambled word will be replaced with a new one. If incorrect, you will be prompted to try again.
 5. Continue playing until the time limit runs out or you achieve a high score.
-
+6. Go through all the levels and the score will add up in the end page until you refresh.
+   
 ## Tech Stack
 
 - HTML: Used for creating the structure of the webpage
