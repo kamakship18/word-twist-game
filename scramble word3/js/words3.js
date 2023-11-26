@@ -1,34 +1,30 @@
 let words=[
     {
-        word: "field",
-        hint: "Area of land for farming activities"
+        word: "cryptocurrency",
+        hint: "digital coins"
     },
     {
-        word: "friend",
-        hint: "Person other than a family member"
+        word: "algorithm",
+        hint: "logic,code,problem-solving"
     },
     {
-        word: "pocket",
-        hint: "A bag for carrying small items"
+        word: "quantum",
+        hint: "computing,physics,superposition"
     },
     {
-        word: "needle",
-        hint: "A thin and sharp metal pin"
+        word: "biometrics",
+        hint: "recognition,security"
     },
     {
-        word: "taste",
-        hint: "Ability of tongue to detect flavour"
+        word: "metamaterials",
+        hint: "invisibility,wave manipulation"
     },
     {
-        word: "expert",
-        hint: "Person with extensive knowledge"
+        word: "biosynthetic",
+        hint: "engineering,synthetic biology"
     },
     {
-        word: "statement",
-        hint: "A declaration of something"
-    },
-    {
-        word: "store",
-        hint: "Large shop where goods are traded"
+        word: "exascale",
+        hint: "computing,performance,supercomputers"
     },
 ]

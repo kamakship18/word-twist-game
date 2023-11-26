@@ -1,30 +1,30 @@
 let words =[
     {
-        word: "canvas",
-        hint: "Piece of fabric for oil painting"
+        word: "react",
+        hint: "JavaScript framework"
     },
     {
-        word: "garden",
-        hint: "Space for planting flower and plant"
+        word: "angular",
+        hint: "JavaScript Framework"
     },
     {
-        word: "position",
-        hint: "Location of someone or something"
+        word: "javascript",
+        hint: "Scripting Language"
     },
     {
-        word: "feather",
-        hint: "Hair like outer covering of bird"
+        word: "bootstrap",
+        hint: "Styling Library"
     },
     {
-        word: "comfort",
-        hint: "A pleasant feeling of relaxation"
+        word: "flask",
+        hint: "A lightweight web frame for python"
     },
     {
-        word: "country",
-        hint: "A politically identified region"
+        word: "git",
+        hint: "version control"
     },
     {
-        word: "group",
-        hint: "A number of objects or persons"
+        word: "redux",
+        hint: "a predictable state container for JS apps"
     },
 ]
