@@ -11,7 +11,7 @@ Welcome to the Scrambled/twisted Words Game! This game challenges you to reconst
 
 ## Installation
 
-No installation is required! Simply open the provided name.html file in a web browser and start playing or paste the following link on the web browser. - ( https://kamakship18.github.io/word-twist-game/front-page/name.html )
+No installation is required! Simply open the provided name.html file in a web browser and start playing or click on the following link. - ( https://kamakship18.github.io/word-twist-game/front-page/name.html )
 
 ## How to Play
 
